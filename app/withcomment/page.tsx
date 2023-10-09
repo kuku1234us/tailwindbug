@@ -1,6 +1,6 @@
 import { StyleTable } from "@/lib/styleLookup";
 
-export default function Home() {
+export default function Page() {
   console.log("sty", StyleTable["inputField"]);
   return (
     <div className="relative text-5xl w-full h-full">
